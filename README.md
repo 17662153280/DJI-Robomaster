@@ -112,7 +112,7 @@ your-repository/
 如有问题或建议，请通过以下方式联系我：
 
 - **邮箱**：yaobing202402@sina.com
-- **GitHub**：[@your-username](https://github.com/17662153280)
+- **GitHub**：[@17662153280](https://github.com/17662153280)
 
 ---
 
