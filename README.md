@@ -88,6 +88,9 @@ DJI-Robomaster/
 [Track 1 Thumbnail](thumbnails/track1.jpg)
 [点击这里观看视频](video/track1.mp4)
 
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+
+
 
 ```
 
