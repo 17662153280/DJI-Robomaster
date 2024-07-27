@@ -47,13 +47,6 @@ git clone https://github.com/17662153280/DJI-Robomaster.git
 cd DJI-Robomaster
 ```
 
-### 安装依赖
-
-创建一个虚拟环境（可选）并安装所需的依赖：
-
-```bash
-pip install -r requirements.txt
-```
 
 ## 使用指南
 
@@ -66,14 +59,14 @@ pip install -r requirements.txt
 
 根据你的需要运行以下脚本：
 
-- **避障功能**：`python obstacle_avoidance.py`
-- **人体跟踪**：`python human_tracking.py`
-- **抓取功能**：`python grasping.py`
+- **避障功能**：`python obstacle.py`
+- **人体跟踪**：`python body-pid.py`
+- **抓取功能**：`python grab.py`
 
 ### 示例命令
 
 ```bash
-python main.py --mode obstacle_avoidance
+python main.py --mode obstacle
 ```
 
 ## 项目结构
@@ -81,15 +74,9 @@ python main.py --mode obstacle_avoidance
 ```
 DJI-Robomaster/
 │
-├── obstacle_avoidance.py     # 避障功能脚本
-├── human_tracking.py         # 人体跟踪功能脚本
-├── grasping.py               # 抓取功能脚本
-├── utils/                    # 辅助工具和函数
-│   ├── __init__.py
-│   ├── pid_controller.py     # PID 控制器实现
-│   ├── dji_sdk.py            # DJI SDK 封装
-│   └── mediapipe_utils.py    # MediaPipe 辅助函数
-├── requirements.txt          # Python 依赖列表
+├── obstacle.py     # 避障功能脚本
+├── body-pid.py         # 人体跟踪功能脚本
+├── grab.py               # 抓取功能脚本
 ├── README.md                 # 项目的 README 文件
 └── LICENSE                   # 项目许可证
 ```
