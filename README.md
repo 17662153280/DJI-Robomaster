@@ -96,7 +96,9 @@ your-repository/
 
 ## 演示视频
 ```
-[观看演示视频](https://www.youtube.com/watch?v=ZjKtOtQNXsc)
+点击下方缩略图观看演示视频：
+
+[![视频缩略图](https://github.com/17662153280/DJI-Robomaster/main/thumbnails/跟踪1.jpg)](https://www.youtube.com/watch?v=ZjKtOtQNXsc)
 
 ```
 
