@@ -1,0 +1,34 @@
+name: Generate Video Thumbnail
+
+on:
+  push:
+    paths:
+      - 'video/*'  # 只在 'video' 文件夹中的文件发生变化时触发
+  workflow_dispatch:
+
+jobs:
+  generate-thumbnail:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up FFmpeg
+      run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+    - name: Generate thumbnail
+      run: |
+        mkdir -p thumbnails
+        for video in videos/*.mp4; do
+          filename=$(basename "$video")
+          thumbnail="thumbnails/${filename%.mp4}.jpg"
+          ffmpeg -i "$video" -ss 00:00:01.000 -vframes 1 "$thumbnail"
+        done
+
+    - name: Commit and push thumbnail
+      uses: EndBug/add-and-commit@v9
+      with:
+        add: 'thumbnails/*'
+        message: 'Add generated thumbnails'
+        branch: main  # 更新为你的目标分支
