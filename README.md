@@ -79,7 +79,7 @@ python main.py --mode obstacle_avoidance
 ## 项目结构
 
 ```
-your-repository/
+DJI-Robomaster/
 │
 ├── obstacle_avoidance.py     # 避障功能脚本
 ├── human_tracking.py         # 人体跟踪功能脚本
