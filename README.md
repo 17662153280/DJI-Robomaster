@@ -85,8 +85,8 @@ DJI-Robomaster/
 ```
 点击下方缩略图观看演示视频：
 
-![Track 1 Thumbnail](DJI-Robomaster/thumbnails/跟踪2.jpg)
-[点击这里观看视频](DJI-Robomaster/video/跟踪2.mp4)
+![Track 1 Thumbnail](thumbnails/跟踪2.jpg)
+[点击这里观看视频](/video/跟踪2.mp4)
 
 ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
