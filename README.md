@@ -82,16 +82,11 @@ DJI-Robomaster/
 ```
 
 ## 演示视频
+
 ```
-点击下方缩略图观看演示视频：
+点击下方观看演示视频：
 
-![Track 1 Thumbnail](thumbnails/跟踪2.jpg)
-[点击这里观看视频](/video/跟踪2.mp4)
-
-![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
-
-
-
+[视频演示](https://youtu.be/OEfw6ntx-3c?si=LfANBxGEqTOP47U9)
 ```
 
 
@@ -118,4 +113,4 @@ DJI-Robomaster/
 
 ---
 
-记得根据你的实际情况和项目细节调整 README 文件的内容！如果你有更多具体要求或其他需要补充的部分，请告诉我。
+
