@@ -31,4 +31,4 @@ jobs:
       with:
         add: 'thumbnails/*'
         message: 'Add generated thumbnails'
-        branch: master  # 更新为你的目标分支
+        branch: main  # 更新为你的目标分支
