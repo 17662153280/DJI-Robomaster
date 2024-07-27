@@ -98,8 +98,8 @@ your-repository/
 ```
 点击下方缩略图观看演示视频：
 
-
-[![跟踪1的缩略图](thumbnails/track1.jpg)](video/track1.mp4)
+[Track 1 Thumbnail](thumbnails/track1.jpg)
+[点击这里观看视频](video/track1.mp4)
 
 
 ```
