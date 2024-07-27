@@ -98,7 +98,9 @@ your-repository/
 ```
 点击下方缩略图观看演示视频：
 
-[![视频缩略图](thunmbails/跟踪1.jpg)](video/跟踪1.mp4)
+
+[![跟踪1的缩略图](thumbnails/%E8%B7%9F%E8%B8%AA1.jpg)](video/%E8%B7%9F%E8%B8%AA1.mp4)
+
 
 ```
 
